@@ -19,13 +19,13 @@ btn.addEventListener("click", () => {
     btn.setAttribute("src", "/pic/press.png");
     iconsWrapper.classList.remove("rotate");
     win.classList.add("win");
-  }, 2000);
+  }, 4000);
 
 
   setTimeout(() => {
     dailog.style.display = "flex";
     win.classList.remove("win");
-  }, 3000);
+  }, 5000);
 });
 
 cross.addEventListener("click", () => {
