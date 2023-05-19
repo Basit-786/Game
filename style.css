@@ -74,7 +74,7 @@
 .press-btn {
   position: absolute;
   width: 120px;
-  bottom: 190px;
+  bottom: 180px;
   right: 220px;
   cursor: pointer;
 }
@@ -206,7 +206,7 @@
   margin-left: 20vw;
   width: 8vw;
   height: 8vw;
-  animation: win 2s linear;
+  animation: win 2.5s linear;
   z-index: 100000;
 }
 
@@ -435,12 +435,16 @@
 
 @keyframes win {
   0% {
-    margin-top: 10vw;
-    margin-left: 13vw;
+    margin-top: -10vw;
+    margin-left: -6vw;
   }
   50% {
-    margin-top: 0vw;
-    margin-left: 15vw;
+    margin-top: 19vw;
+    margin-left: -4vw;
+  }
+  75% {
+    margin-top: 19vw;
+    margin-left: 4vw;
   }
   100% {
     margin-top: -10vw;
