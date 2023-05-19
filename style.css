@@ -232,29 +232,39 @@
 }
 
 @media only screen and (max-width: 900px) {
+  .top-btn{
+    top: 188px;
+    font-size: 6px;
+  }
+  .icons {
+    top: 330px;
+    left: 165px;
+    scale: .65;
+  }
+
   .con {
     font-size: 9px;
-    bottom: 283px;
+    bottom: 183px;
     right: 210px;
   }
 
   .press-btn {
-    width: 130px;
-    bottom: 188px;
-    right: 189px;
+    width: 100px;
+    bottom: 102px;
+    right: 219px;
   }
 
   .thumb {
     width: 40px;
-    bottom: 250px;
-    right: 169px;
+    bottom: 150px;
+    right: 199px;
   }
 }
 
 @media (max-width: 610px) {
   .icons {
-    top: 560px;
-    left: 65px;
+    top: 328px;
+    left: 22vw;
   }
 
   .one {
@@ -308,37 +318,42 @@
   }
 
   .press-btn {
-    width: 120px;
-    bottom: 188px;
-    right: 180px;
+    width: 80px;
+    bottom: 108px;
+    right: 36vw;
+  }
+  .thumb {
+    width: 30px;
+    bottom: 145px;
+    right: 34vw;
+  }
+
+  .con {
+    bottom: 166px;
   }
 }
 
 @media (max-width: 500px) {
-  .top-btn {
-    top: 325px;
-  }
-
   .icons {
-    top: 560px;
-    left: 0;
+    top: 335px;
+    left: 17vw;
   }
 
   .con {
-    bottom: 280px;
-    right: 120px;
+    bottom: 160px;
+    right: 34vw;
   }
 
   .press-btn {
-    width: 120px;
-    bottom: 190px;
-    right: 100px;
+    width: 80px;
+    bottom: 105px;
+    right: 33vw;
   }
 
   .thumb {
     width: 40px;
-    bottom: 240px;
-    right: 95px;
+    bottom: 130px;
+    right: 28vw;
   }
 }
 
@@ -349,33 +364,30 @@
   }
 
   .icons {
-    top: 560px;
-    left: -10vw;
+    top: 330px;
+    left: 10vw;
   }
-
+}
+@media (max-width: 340px) {
+  .icons {
+    top: 330px;
+    left: 4vw;
+  }
   .con {
-    bottom: 280px;
-    right: 20vw;
+    bottom: 160px;
+    right: 29vw;
   }
 
   .press-btn {
-    width: 110px;
-    bottom: 190px;
-    right: 20vw;
+    width: 80px;
+    bottom: 105px;
+    right: 28vw;
   }
 
   .thumb {
-    width: 40px;
-    bottom: 240px;
-    right: 18vw;
+    width: 30px;
   }
-}
 
-@media (max-width: 340px) {
-  .icons {
-    top: 560px;
-    left: -20vw;
-  }
 }
 
 @keyframes iconAnimate1 {
