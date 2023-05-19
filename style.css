@@ -49,10 +49,11 @@
 .top-btn {
   position: absolute;
   color: white;
-  top: 220px;
+  top: 328px;
   font-size: 8px;
   z-index: 200;
 }
+/* 
 
 .con {
   position: absolute;
@@ -68,12 +69,12 @@
 
 .red {
   color: #b03040;
-}
+} */
 
 .press-btn {
   position: absolute;
   width: 120px;
-  bottom: 120px;
+  bottom: 190px;
   right: 220px;
   cursor: pointer;
 }
@@ -81,14 +82,14 @@
 .thumb {
   position: absolute;
   width: 50px;
-  bottom: 168px;
-  right: 200px;
+  bottom: 198px;
+  right: 190px;
   animation: bounce 0.6s infinite;
 }
 
 .icons {
   position: absolute;
-  top: 390px;
+  top: 500px;
   scale: .7;
   left: 160px;
   z-index: 10000;
@@ -233,11 +234,11 @@
 
 @media only screen and (max-width: 900px) {
   .top-btn{
-    top: 188px;
+    top: 328px;
     font-size: 6px;
   }
   .icons {
-    top: 330px;
+    top: 530px;
     left: 165px;
     scale: .65;
   }
@@ -250,20 +251,20 @@
 
   .press-btn {
     width: 100px;
-    bottom: 102px;
+    bottom: 192px;
     right: 219px;
   }
 
   .thumb {
     width: 40px;
-    bottom: 150px;
+    bottom: 200px;
     right: 199px;
   }
 }
 
 @media (max-width: 610px) {
   .icons {
-    top: 328px;
+    top: 528px;
     left: 22vw;
   }
 
@@ -319,40 +320,32 @@
 
   .press-btn {
     width: 80px;
-    bottom: 108px;
+    bottom: 208px;
     right: 36vw;
   }
   .thumb {
     width: 30px;
-    bottom: 145px;
+    bottom: 225px;
     right: 34vw;
   }
 
-  .con {
-    bottom: 166px;
-  }
 }
 
 @media (max-width: 500px) {
   .icons {
-    top: 335px;
+    top: 535px;
     left: 17vw;
-  }
-
-  .con {
-    bottom: 160px;
-    right: 34vw;
   }
 
   .press-btn {
     width: 80px;
-    bottom: 105px;
+    bottom: 205px;
     right: 33vw;
   }
 
   .thumb {
     width: 40px;
-    bottom: 130px;
+    bottom: 230px;
     right: 28vw;
   }
 }
@@ -364,23 +357,19 @@
   }
 
   .icons {
-    top: 330px;
+    top: 530px;
     left: 10vw;
   }
 }
 @media (max-width: 340px) {
   .icons {
-    top: 330px;
+    top: 530px;
     left: 4vw;
-  }
-  .con {
-    bottom: 160px;
-    right: 29vw;
   }
 
   .press-btn {
     width: 80px;
-    bottom: 105px;
+    bottom: 195px;
     right: 28vw;
   }
 
